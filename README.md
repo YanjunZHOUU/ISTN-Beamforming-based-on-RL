@@ -1,5 +1,12 @@
 # ISTN-Beamforming-based-on-RL
-物理层安全大作业代码，基于强化学习的星地一体化网络波束成形。作者：周彦均
+
+Beamforming Schemes for Integrated Satellite- Terrestrial Networks Based on Reinforcement Learning. 
+
+Author: Yanjun Zhou
+
+This repository includes all the code for both static and dynamic topology scenarios. The basic ISTN model used is modified from the paper by Du et.al [1]. The study experimented with four reinforcement learning algorithms: SAC, DDPG, TD3, and PPO. Our report selected the most representative ones, SAC and DDPG, for presentation.
+
+To run any of the algorithms, run the corresponding main scrpit. 
 
 
-其中包含静态拓扑和动态拓扑场景下的所有代码。研究尝试了4种强化学习算法，包括SAC,DDPG,TD3和PPO，报告中选择了最有代表性的SAC和DDPG进行汇报
+[1]	DU J, JIANG C, ZHANG H, WANG X, REN Y, DEBBAH M. Secure satellite-terrestrial transmission over incumbent terrestrial networks via cooperative beamforming［J］. IEEE Journal on Selected Areas in Communications, 2018, 36(7):1367–1382.
